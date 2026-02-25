@@ -1,13 +1,13 @@
-# 🌐 My Portfolio
+#  My Portfolio
 
 This is my personal portfolio website created as part of my internship task at CodeAlpha.  
 The project showcases my skills, projects, and contact details in a clean and responsive layout.
 
-## 📌 Project Objective
+##  Project Objective
 
 The goal of this project was to design and develop a professional personal portfolio using basic frontend technologies. It demonstrates my understanding of webpage structure, styling, and responsive design.
 
-## 🚀 Features
+##  Features
 
 - Responsive design
 - Smooth navigation between sections
@@ -15,13 +15,13 @@ The goal of this project was to design and develop a professional personal portf
 - Clean UI and structured layout
 - Beginner-friendly frontend implementation
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 📂 Project Structure
+##  Project Structure
  CodeAlpha_Portfolio/
 │── index.html
 │── style.css
@@ -29,18 +29,19 @@ The goal of this project was to design and develop a professional personal portf
 │── images/
 
 
-## 🎯 What I Learned
+##  What I Learned
 
 - Structuring a complete webpage using semantic HTML
 - Styling layouts using CSS (Flexbox, positioning, responsiveness)
 - Basic JavaScript interactions
 - Organizing project files professionally
 
-## 📞 Contact
+##  Contact
 
 If you’d like to connect or collaborate, feel free to reach out!
 
 ---
 
 ✨ Thank you for visiting this repository!
+
 
