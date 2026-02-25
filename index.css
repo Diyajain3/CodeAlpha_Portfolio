@@ -464,9 +464,9 @@ section.active
   height: auto;
 }
  .resume-detail.skills .resume-item img{
-  font-size: 10rem;
+  font-size: 14rem;
   width: 5rem;
-  height: 7rem;
+  height: 4rem;
   transition: .5s;
  }
 
