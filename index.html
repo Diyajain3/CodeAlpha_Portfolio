@@ -8,6 +8,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--custom css-->
     <link rel="stylesheet" href="index.css">
+    <!--tailwind CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   
 </head>
 <body>
@@ -24,9 +26,6 @@
       <a href="#contact">Contact Me</a>
     </nav>
   </header>
-  
-
-
   <!--homesection-->
   <section class="home  active" id="home">
     <div class="home-detail">
@@ -38,7 +37,7 @@
       </h2>
       <p>I am a Full-Stack MERN Developer passionate about building modern web applications.Skilled in both frontend and backend, I create responsive and scalable solutions.With expertise in React, Node.js, Express, and MongoDB, I deliver end-to-end projects.Currently pursuing B.Tech in Computer Science with specialization in Information Technology, I focus on clean code, user-friendly design, and problem-solving through technology.</p>
       <div class="btn-sci">
-        <a href="https://drive.google.com/file/d/1QCkTb8Ukvol9-5Upfqo-T5Okv8-DRz31/view?usp=drivesdk" class="btn">Download Resume</a>
+        <a href="https://drive.google.com/file/d/11em1b7wDfQ4qpy9NlG9_FS2ucFpHKqQG/view?usp=drive_link" class="btn">Download Resume</a>
         <div class="sci">
           <a href="https://github.com/Diyajain3"><i class='bx bxl-github'></i></a>
           <a href="https://www.linkedin.com/in/diya-jain-089aa4286"><i class='bx bxl-linkedin'></i></a>
@@ -55,8 +54,7 @@
         </div>
       </div>
     </div>
-  </section>
-    
+  </section> 
   <!--services section-->
   <section class="services active" id="services">
     <h2 class="heading">My <span>Services</span></h2>
@@ -90,7 +88,6 @@
 
     </div>
   </section>
-
   <!--resume section-->
    <section class="resume active" id="resume">
     <div class="resume-container">
@@ -131,7 +128,7 @@
           <div class="resume-list">
            <div class="resume-item">
               <p class="year">09/2023-Present</p>
-              <h3>B.Tech - CGPA: 9</h3>
+              <h3>B.Tech - CGPA: 8.7</h3>
               <p class="company">KCC Institute Of Technology And Management, Greater Noida, India</p>
               <p class="theory">Pursuing Bachelor of Technology with a strong academic record and a focus on software development and modern web technologies.</p>
           </div>
@@ -219,54 +216,107 @@
       </div>
     </div>
    </section>
-
   <!--Projects section-->
    <section class="portfolio active" id="portfolio">
     <h2 class="heading">Latest <span>Project's</span></h2>
     <div class="portfolio-container">
       <div class="portfolio-box">
 
-        <div class="portfolio-detail active">
-          <p class="numb">01</p>
-          <h3>Image Gallery</h3>
-          <p>Developed a responsive Image Gallery during my Code Alpha Frontend Development Internship, utilizing HTML, CSS, and JavaScript. The project features dynamic image filtering and hover effects, enhancing user interaction and visual appeal. This experience honed my skills in crafting engaging and user-friendly web interfaces.</p>
-          <div class="tech">
-            <p>HTML5, CSS3, JavaScript</p>
-          </div>
-
-          <div class="live-github">
-            <a href="#"><i class="bx bx-arrow-back"></i> <span> Live Project </span></a>
-            <a href="https://github.com/Diyajain3/CodeAlpha_ImageGallery"><i class="bx bxl-github"></i><span> Github Repository </span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">02</p>
-          <h3>Portfolio</h3>
-          <p>During my Code Alpha Frontend Development Internship, I built my own Personal Portfolio using HTML, CSS, and JavaScript.This project helped me understand responsive design, layout structuring, and interactive web elements.It significantly enhanced my practical knowledge of frontend development and strengthened my coding skills</p>
-          <div class="tech">
-            <p>HTML5, CSS3, JavaScript</p>
-          </div>
-
-          <div class="live-github">
-            <a href="#"><i class="bx bx-arrow-back"></i> <span> Live Project </span></a>
-            <a href="https://github.com/Diyajain3/CodeAlpha_Portfolio"><i class="bx bxl-github"></i><span> Github Repository </span></a>
-          </div>
-        </div>
         
+
+        
+        
+        <div class="portfolio-detail active ">
+  <p class="numb">01</p>
+  <h3>Quorix - Full-Stack Chatbot</h3>
+  <p>Developed a real-time AI chatbot with secure user authentication and persistent chat history.
+  Built RESTful APIs using Node.js and Express, with MongoDB for efficient data storage.
+  Designed a responsive React.js frontend and deployed the application on Render.</p>
+  <div class="tech">
+    <p>React.js, Node.js, Express.js, EJS, MongoDB</p>
+  </div>
+  <div class="live-github">
+    <a href="#"><i class="bx bx-arrow-back"></i> <span> Live Project </span></a>
+    <a href="https://github.com/Diyajain3/Quorix-Chatbot">
+      <i class="bx bxl-github"></i><span> Github Repository </span>
+    </a>
+  </div>
+</div>
+
+<div class="portfolio-detail">
+  <p class="numb">02</p>
+  <h3>ThirtySix Studio Website Recreation</h3>
+  <p>Recreated the ThirtySix Studio website using React and modern animation libraries.
+  Implemented smooth scrolling effects and advanced UI animations to enhance user experience.
+  Focused on clean design, responsive layout, and interactive frontend development.</p>
+  <div class="tech">
+    <p>React.js, GSAP, Locomotive Scroll, Tailwind CSS</p>
+  </div>
+  <div class="live-github">
+    <a href="#"><i class="bx bx-arrow-back"></i> <span> Live Project </span></a>
+    <a href="https://github.com/Diyajain3/Recreates_thirtySixStudio_Webiste">
+      <i class="bx bxl-github"></i><span> Github Repository </span>
+    </a>
+  </div>
+</div>
+
+<div class="portfolio-detail">
+  <p class="numb">03</p>
+  <h3>Portfolio</h3>
+  <p>Built my own Personal Portfolio using HTML, CSS, and JavaScript during my internship.
+  Implemented responsive design, structured layouts, and interactive UI elements.
+  Strengthened frontend development fundamentals and clean coding practices.</p>
+  <div class="tech">
+    <p>HTML5, CSS3, JavaScript</p>
+  </div>
+  <div class="live-github">
+    <a href="#"><i class="bx bx-arrow-back"></i> <span> Live Project </span></a>
+    <a href="https://github.com/Diyajain3/CodeAlpha_Portfolio">
+      <i class="bx bxl-github"></i><span> Github Repository </span>
+    </a>
+  </div>
+</div>
+
+<div class="portfolio-detail">
+  <p class="numb">04</p>
+  <h3>Image Gallery</h3>
+  <p>Developed a responsive Image Gallery using HTML, CSS, and JavaScript.
+  Implemented dynamic filtering, hover effects, and structured layout for better user interaction.
+  Enhanced UI skills and understanding of DOM manipulation.</p>
+  <div class="tech">
+    <p>HTML5, CSS3, JavaScript</p>
+  </div>
+  <div class="live-github">
+    <a href="#"><i class="bx bx-arrow-back"></i> <span> Live Project </span></a>
+    <a href="https://github.com/Diyajain3/CodeAlpha_ImageGallery">
+      <i class="bx bxl-github"></i><span> Github Repository </span>
+    </a>
+  </div>
+</div>
       </div>
 
       <div class="portfolio-box">
         <!--image carousel-->
         <div class="portfolio-carousel">
           <div class="img-slide">
+            
             <div class="img-item">
-              <img src="images/p1.jpeg" alt="">
+              <img src="images/chatbot.png" alt="">
+            </div>
+             
+            <div class="img-item">
+              <img src="images/studio.png" alt="">
             </div>
 
             <div class="img-item">
               <img src="images/p2.jpeg" alt="">
             </div>
+
+            <div class="img-item">
+              <img src="images/p1.jpeg" alt="">
+            </div>
+
+
           </div>
         </div>
 
@@ -277,7 +327,6 @@
       </div>
     </div>
    </section>
-
    <!--Contact section-->
    <section class="contact active" id="contact">
     <div class="contact-container">
